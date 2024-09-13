@@ -1,5 +1,13 @@
 {
   "description": "Demo for Seiden group",
-   "repository": "https://github.com/edmundreinhardt/payroll-seiden"
-
+  "repository": "https://github.com/edmundreinhardt/payroll-seiden",
+  "curlib": "&CURLIB",
+  "buildCommand": "makei build",
+  "compileCommand": "makei compile -f {filename}",
+  "includePath": [
+    "QPROTOSRC"
+  ],
+  "preUsrlibl": [
+    "&dtalib"
+  ]
 }
